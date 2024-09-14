@@ -17,3 +17,18 @@
     >
   </li>
 </ul>
+
+<code>
+current_file="Setting_up-a_super-lightweight_personal_knowledge_base.html"
+echo -e "\n\n<h2>Backlinks</h2>\n" >> "$current_file"
+grep -r -l "href=.*${current_file}" --include \*.html . | while read -r file; do
+    relative_link=$(echo "$file" | sed 's#./##')
+    echo "<a href=\"$relative_link\">$relative_link</a>" >> "$current_file"
+  done
+</code>
+
+
+
+<h2>Backlinks</h2>
+
+<a href="index.html">index.html</a>
