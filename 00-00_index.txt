@@ -1,0 +1,164 @@
+<h2>10 to 19 Life admin</h2>
+	<h3>11 Me & other living things</h3>
+	      <li>11-00 System management</li>
+	      <li>11-01 Inbox</li>
+	      <li>11-02 System manual</li>
+	      <li>11-09 Archive</li>
+	      <li>11-10 Personal records</li>
+	      <li>11-11 Birth certificate & proof of name</li>
+	      <li>11-12 Passports, residency, & citizenship</li>
+	      <li>11-13 Identity cards</li>
+	      <li>11-14 Licenses</li>
+	      <li>11-15 Voter registration & elections</li>
+	      <li>11-16 Legal documents & certificates</li>
+	      <li>11-17 Academic records & qualifications</li>
+	      <li>11-20 Physical health & wellbeing</li>
+	      <li>11-21 Health insurance & claims</li>
+	      <li>11-22 Health records & registrations</li>
+	      <li>11-23 Primary care</li>
+	      <li>11-24 Eyes, ears, & teeth</li>
+	      <li>11-25 Immunity</li>
+	      <li>11-26 Physical therapy</li>
+	      <li>11-27 Fitness, nutrition, sleep, & other pro-active wellbeing</li>
+	      <li>11-28 Reproductive health</li>
+	      <li>11-29 Surgical & specialist care</li>
+	      <li>11-30 Mental health & wellbeing</li>
+	      <li>11-31 Psychologist, psychiatrist, & counselling</li>
+	      <li>11-32 My thoughts, journalling, diaries, & other writing</li>
+	      <li>11-33 Spiritual</li>
+	      <li>11-34 Habits, routines, & planning</li>
+	      <li>11-35 Brain training</li>
+	      <li>11-40 Family</li>
+	      <li>11-41 My partner</li>
+	      <li>11-42 My kids</li>
+	      <li>11-43 My family</li>
+	      <li>11-44 Dating & relationships</li>
+	      <li>11-45 Celebrations & gifting</li>
+	      <li>11-46 Letters, cards, & mementos</li>
+	      <li>11-50 Friends, clubs, & organisations</li>
+	      <li>11-51 My friends</li>
+	      <li>11-52 Groups, clubs, & volunteering</li>
+	      <li>11-53 Official correspondence</li>
+	      <li>11-60 Pets & other animals</li>
+	      <li>11-61 Pet health insurance & claims</li>
+	      <li>11-62 Pet health records & registrations</li>
+	      <li>11-70 My brilliant career</li>
+	      <li>11-71 My sales pitch</li>
+	      <li>11-72 My jobs past, present, & future</li>
+	      <li>11-73 My side-hustles</li>
+	      <li>11-80 Personal development & who I am</li>
+	      <li>11-81 Goals & dreams</li>
+	      <li>11-82 Hobbies & learning</li>
+	      <li>11-83 My library</li>
+	<h3>12 Where I live & how I get around</h3>
+	      <li>12-00 System management</li>
+	      <li>12-01 Inbox</li>
+	      <li>12-09 Archive</li>
+	      <li>12-10 Home records</li>
+	      <li>12-11 Official documents</li>
+	      <li>12-12 Home insurance & claims</li>
+	      <li>12-13 Moving</li>
+	      <li>12-14 Inventory</li>
+	      <li>12-15 My home's user manual</li>
+	      <li>12-16 Appliances, tools, & gadgets</li>
+	      <li>12-17 Rates, taxes, & fees</li>
+	      <li>12-20 Home services & health</li>
+	      <li>12-21 Electricity, gas, & water</li>
+	      <li>12-22 Internet, phone, TV, & cable</li>
+	      <li>12-23 All other utilities & services</li>
+	      <li>12-24 Repairs, maintenance, & upkeep</li>
+	      <li>12-25 Renovation & improvements</li>
+	      <li>12-30 Getting around</li>
+	      <li>12-31 Motor vehicle purchase, leasing, & rental</li>
+	      <li>12-32 Motor vehicle insurance & claims</li>
+	      <li>12-33 Mechanics, repairs, & maintenance</li>
+	      <li>12-34 Permits & tolls</li>
+	      <li>12-35 Bicycles & scooters</li>
+	      <li>12-36 Public transport</li>
+	      <li>12-40 My kitchen & garden</li>
+	      <li>12-41 Indoor plants</li>
+	      <li>12-42 Outdoor plants</li>
+	      <li>12-43 Growing herbs, vegetables, & fruit</li>
+	      <li>12-44 Meals & recipes</li>
+	      <li>12-50 Housemates, neighbours, & the neighbourhood</li>
+	      <li>12-51 Housemates</li>
+	      <li>12-52 Neighbours</li>
+	      <li>12-53 The neighbourhood</li>
+	<h3>13 Money earned, saved, owed, & spent</h3>
+	      <li>13-00 System management</li>
+	      <li>13-01 Inbox</li>
+	      <li>13-09 Archive</li>
+	      <li>13-10 Earned</li>
+	      <li>13-11 Payslips, invoices, & remittance</li>
+	      <li>13-12 Expenses & claims</li>
+	      <li>13-13 Government services</li>
+	      <li>13-14 Gifts, prizes, inheritance, & windfalls</li>
+	      <li>13-15 Selling my stuff</li>
+	      <li>13-20 Saved</li>
+	      <li>13-21 Budgets & planning</li>
+	      <li>13-22 Bank accounts</li>
+	      <li>13-23 Investments & assets</li>
+	      <li>13-24 Pension</li>
+	      <li>13-30 Owed</li>
+	      <li>13-31 Credit cards</li>
+	      <li>13-32 Mortgage</li>
+	      <li>13-33 Personal loans</li>
+	      <li>13-34 Tax returns & accounting</li>
+	      <li>13-35 Tickets & fines</li>
+	      <li>13-40 Spent & sent</li>
+	      <li>13-41 Purchase receipts</li>
+	      <li>13-42 Subscriptions, memberships, & donations</li>
+	      <li>13-43 Payment services</li>
+	      <li>13-44 Money transfer services</li>
+	      <li>13-50 Financial administration</li>
+	      <li>13-51 My credit rating</li>
+	<h3>14 My online life</h3>
+	      <li>14-00 System management</li>
+	      <li>14-01 Inbox</li>
+	      <li>14-09 Archive</li>
+	      <li>14-10 Computers & other devices</li>
+	      <li>14-11 My computers & servers</li>
+	      <li>14-12 My mobile devices</li>
+	      <li>14-13 My wi-fi & network devices</li>
+	      <li>14-14 My data storage & backups</li>
+	      <li>14-15 My accessories</li>
+	      <li>14-20 Software & accounts</li>
+	      <li>14-21 My emergency recovery kit</li>
+	      <li>14-22 Software, licenses, & downloads</li>
+	      <li>14-23 Email accounts</li>
+	      <li>14-24 Social media accounts</li>
+	      <li>14-25 Domains & hosting</li>
+	      <li>14-26 All other accounts</li>
+	      <li>14-30 My online presence</li>
+	      <li>14-31 My blog</li>
+	<h3>15 Travel, events, & entertainment</h3>
+	      <li>15-00 System management</li>
+	      <li>15-01 Inbox</li>
+	      <li>15-09 Archive</li>
+	      <li>15-10 Inspiration & history</li>
+	      <li>15-11 Places I've been, or want to go</li>
+	      <li>15-12 Places I'd like to eat or drink</li>
+	      <li>15-13 Inspirational or useful websites, apps, & guides</li>
+	      <li>15-20 Administration & checklists</li>
+	      <li>15-21 Important documents & lists</li>
+	      <li>15-22 Going-away checklists</li>
+	      <li>15-23 Travel insurance & claims</li>
+	      <li>15-24 Loyalty programs</li>
+	      <li>15-30 Events</li>
+	      <li>15-31 Eating out</li>
+	      <li>15-32 Music</li>
+	      <li>15-33 Movies</li>
+	      <li>15-34 The arts</li>
+	      <li>15-35 Sport</li>
+	      <li>15-36 Fairs & shows</li>
+	      <li>15-37 Conferences & expos</li>
+	      <li>15-40 Short or routine trips</li>
+	      <li>15-41 All short trips</li>
+	      <li>15-50 Longer trips</li>
+	      <li>15-51 Longer trips from the past</li>
+<h2>20 to 29 medicine</h2>
+	<h3>21_facharzt_allgemeinmedizin</h3>
+	      <li>21-10_cardiology</li>
+<h2>40 to 49 rpg</h2>
+  <h3>41 inspiration source</h3>
+        <li>41-11_pdf</li>

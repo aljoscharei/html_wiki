@@ -1,0 +1,107 @@
+codecodeConvert_Obsidian_Vault_to_Human_Readeable_html
+<ol>
+  <li>
+    install the obsidian Plugin:
+    <a href="https://github.com/ozntel/obsidian-link-converter"
+      >Obsidian link converter</a
+    >
+    and convert the whole vault to markdown links
+  </li>
+  <li> copy filename to first line of file </li>
+  <li>
+    <code>
+      pandoc Karriereplanung\ Hausarzt.md -M document-css=false -o output.html
+    </code>
+  </li>
+  <li>append Backlinks as in <a href="Setting_up-a_super-lightweight_personal_knowledge_base.html"></a>Setting_up-a_super-lightweight_personal_knowledge_base </li>
+  <li> convert into html and also chanage links to html links.
+    <p>
+    <code>
+      #!/bin/bash
+
+# Set the base directory and output directory
+base_dir="Players_FlohFelixAljoscha"
+output_dir="../output-dir"
+
+# Create the output directory if it doesn't exist
+mkdir -p "$output_dir"
+
+# Recursively find all .md files in the base directory
+find "$base_dir" -type f -name "*.md" | while read -r file; do
+
+  # Get the filename without the directory and extension
+  filename=$(basename "$file" .md)
+
+  # Prepend a primary markdown heading (H1) to the file
+  # Use a proper method to ensure newline is handled correctly on macOS
+  echo "# $filename" | cat - "$file" > temp && mv temp "$file"
+
+  # Convert the file to HTML using pandoc
+  pandoc "$file" -M document-css=false -o "$output_dir/$filename.html"
+
+  echo "Processed $file -> $output_dir/$filename.html"
+
+done
+
+# Now update all hrefs in the newly created HTML files to point to .html instead of .md
+
+# Find all HTML files in the output directory
+find "$output_dir" -type f -name "*.html" | while read -r file; do
+
+  # Use sed to replace href="*.md" with href="*.html"
+  sed -i '' 's/href="\([^"]*\)\.md"/href="\1.html"/g' "$file"
+
+  echo "Updated links in $file"
+
+done
+</code> 
+    </p>
+<p>
+<h2> Shortened Snippet for pasting in Command line. Remember to adjust base_dir</h2>
+base_dir="Players_FlohFelixAljoscha"
+output_dir="../output-dir"
+mkdir -p "$output_dir"
+find "$base_dir" -type f -name "*.md" | while read -r file; do
+  filename=$(basename "$file" .md)
+  echo "# $filename" | cat - "$file" > temp && mv temp "$file"
+  pandoc "$file" -M document-css=false -o "$output_dir/$filename.html"
+  echo "Processed $file -> $output_dir/$filename.html"
+done
+find "$output_dir" -type f -name "*.html" | while read -r file; do
+  sed -i '' 's/href="\([^"]*\)\.md"/href="\1.html"/g' "$file"
+  echo "Updated links in $file"
+done
+</p>
+  </li>
+  <li> get rid of classes and ids:
+    <p>
+    <code>
+      find . -type f -name "*.html" -exec sed -i '' 's/id="[^"]*"//g' {} +
+    </code>
+  </p>
+    <p>
+      <code>
+      find . -type f -name "*.html" -exec sed -i '' 's/class="[^"]*"//g' {} +
+      </code>
+    </p>
+    </li>
+    <li>
+      <h2>Create an index file with links to all files</h2>
+      <code>
+        directory="./"
+        output_file="index-kardio.html"
+        echo "<h1>Index of Files</h1>" >> "$output_file"
+        echo "<ul>" >> "$output_file"
+        for file in "$directory"*; do
+          if [ "$file" != "$output_file" ] && [ -f "$file" ]; then
+            filename=$(basename "$file")
+            echo "<li><a href=\"$filename\">$filename</a></li>" >> "$output_file"
+          fi
+        done
+        echo "</ul>" >> "$output_file"
+        echo "HTML index file created as $output_file"
+</code>
+    </li>
+</ol>
+
+
